@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDataDrivenUnitTest", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSourceDynamicallyGeneratedCSVExample", "DataSourceDynamicallyGeneratedCSVExample\DataSourceDynamicallyGeneratedCSVExample.csproj", "{DB2CF52C-3C7C-4D5D-AC46-A035EB25C075}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSourceStaticCSV", "DataSourceStaticCSV\DataSourceStaticCSV.csproj", "{65ED9264-9704-4445-BD84-615768FED66A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DB2CF52C-3C7C-4D5D-AC46-A035EB25C075}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2CF52C-3C7C-4D5D-AC46-A035EB25C075}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2CF52C-3C7C-4D5D-AC46-A035EB25C075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ED9264-9704-4445-BD84-615768FED66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ED9264-9704-4445-BD84-615768FED66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ED9264-9704-4445-BD84-615768FED66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ED9264-9704-4445-BD84-615768FED66A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
