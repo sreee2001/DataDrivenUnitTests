@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DB2CF52C-3C7C-4D5D-AC46-A035EB25C075}</ProjectGuid>
+    <ProjectGuid>{D671037B-19ED-426F-A9F5-585E6721C9B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataSourceDynamicallyGeneratedCSVExample</RootNamespace>
-    <AssemblyName>DataSourceDynamicallyGeneratedCSVExample</AssemblyName>
+    <RootNamespace>SimpleDataDrivenUnitTest</RootNamespace>
+    <AssemblyName>SimpleDataDrivenUnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -47,10 +47,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSourceDynamicallyGeneratedCSVExample.cs" />
+    <Compile Include="SampleTestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
